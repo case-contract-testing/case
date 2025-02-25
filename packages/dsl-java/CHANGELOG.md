@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.1](https://github.com/case-contract-testing/contract-case/compare/@contract-case/dsl-java-v0.3.0...@contract-case/dsl-java-v0.3.1) (2025-02-25)
+
+
+### Features
+
+* Add ability for the current version to be generated from the git sha ([dd70365](https://github.com/case-contract-testing/contract-case/commit/dd703650fd058d34f6d772011b74faec10b93074))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @contract-case/case-connector bumped from 0.10.0 to 0.10.1
+
 ## [0.3.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/dsl-java-v0.2.3...@contract-case/dsl-java-v0.3.0) (2024-10-17)
 
 

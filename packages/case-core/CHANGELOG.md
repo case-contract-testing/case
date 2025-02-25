@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.19.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-core-v0.18.0...@contract-case/case-core-v0.19.0) (2025-02-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Allow different tests to have different values for the same default state variable. Contracts using state variables from the previous version will need to be regnerated
+* Add ability for matchers to validate their own content. This is a breaking change for any plugin authors, as matcher Executor implementations now need to provide validation functions
+
+### Features
+
+* Add ability for matchers to validate their own content. This is a breaking change for any plugin authors, as matcher Executor implementations now need to provide validation functions ([afaa8d7](https://github.com/case-contract-testing/contract-case/commit/afaa8d75d81e45ca7609f89b1e17819183bc59b2))
+* Add ability for the current version to be generated from the git sha ([dd70365](https://github.com/case-contract-testing/contract-case/commit/dd703650fd058d34f6d772011b74faec10b93074))
+* Run parameter validators ahead of the self-check, allowing early warning of configuration mistakes in example interactions ([186d2e5](https://github.com/case-contract-testing/contract-case/commit/186d2e58eff512d37e53425ac353b231d15250a8))
+
+
+### Bug Fixes
+
+* Allow different tests to have different values for the same default state variable. Contracts using state variables from the previous version will need to be regnerated ([2984d2b](https://github.com/case-contract-testing/contract-case/commit/2984d2baf29406fab884c5fffc790b6022621047))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @contract-case/case-core-plugin-function bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-core-plugin-http bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-core-plugin-http-dsl bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-entities-internal bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-plugin-base bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-plugin-dsl-types bumped from 0.18.0 to 0.19.0
+  * devDependencies
+    * @contract-case/case-definition-dsl bumped from ^0.18.0 to ^0.19.0
+    * @contract-case/eslint-config-case-maintainer bumped from 0.1.1 to 0.2.0
+
 ## [0.18.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-core-v0.17.1...@contract-case/case-core-v0.18.0) (2024-10-17)
 
 

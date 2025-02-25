@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/eslint-config-case-maintainer-v0.1.1...@contract-case/eslint-config-case-maintainer-v0.2.0) (2025-02-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update to eslint v9, dropping support for v8
+
+### Miscellaneous Chores
+
+* Update to eslint v9, dropping support for v8 ([b260b71](https://github.com/case-contract-testing/contract-case/commit/b260b71bc7b45c4775009e77301403ea8c574f33))
+
 ## [0.1.1](https://github.com/case-contract-testing/contract-case/compare/@contract-case/eslint-config-case-maintainer-v0.1.0...@contract-case/eslint-config-case-maintainer-v0.1.1) (2024-10-01)
 
 

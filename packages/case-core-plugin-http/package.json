@@ -1,6 +1,6 @@
 {
   "name": "@contract-case/case-core-plugin-http",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "ContractCase core HTTP plugin, providing HTTP matchers and mocks",
   "keywords": [
     "testing",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@contract-case/case-maintainer-config": "0.1.0",
-    "@contract-case/eslint-config-case-maintainer": "0.1.1",
+    "@contract-case/eslint-config-case-maintainer": "0.2.0",
     "@types/express": "^4.17.14",
     "@types/jest": "^29.5.12",
     "@types/qs": "^6.9.17",
@@ -64,9 +64,9 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "@contract-case/case-core-plugin-http-dsl": "^0.18.0",
-    "@contract-case/case-plugin-dsl-types": "0.18.0",
-    "@contract-case/case-plugin-base": "^0.18.0",
+    "@contract-case/case-core-plugin-http-dsl": "^0.19.0",
+    "@contract-case/case-plugin-dsl-types": "0.19.0",
+    "@contract-case/case-plugin-base": "^0.19.0",
     "axios": "^1.7.9",
     "express": "^4.20.0",
     "qs": "^6.13.1"

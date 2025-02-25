@@ -29,6 +29,33 @@
     * @contract-case/case-example-mock-types bumped from 0.14.0 to 0.15.1
     * @contract-case/cli bumped from 0.1.6 to 0.1.7
 
+## [0.13.1](https://github.com/case-contract-testing/contract-case/compare/@contract-case/contract-case-jest-v0.13.0...@contract-case/contract-case-jest-v0.13.1) (2025-02-25)
+
+
+### Features
+
+* Add ability for the current version to be generated from the git sha ([dd70365](https://github.com/case-contract-testing/contract-case/commit/dd703650fd058d34f6d772011b74faec10b93074))
+
+
+### Bug Fixes
+
+* Poke through CASE_CONNECTOR_CLIENT to improve debugging ([5e06ce2](https://github.com/case-contract-testing/contract-case/commit/5e06ce2a5096a63ce5b2a786f03ca076dcf1fa9a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @contract-case/case-connector bumped from 0.10.0 to 0.10.1
+    * @contract-case/case-core-plugin-http-dsl bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-definition-dsl bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-entities-internal bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-plugin-base bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-plugin-dsl-types bumped from 0.18.0 to 0.19.0
+    * @contract-case/cli bumped from 0.2.6 to 0.2.7
+  * devDependencies
+    * @contract-case/eslint-config-case-maintainer bumped from 0.1.1 to 0.2.0
+
 ## [0.13.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/contract-case-jest-v0.12.5...@contract-case/contract-case-jest-v0.13.0) (2024-10-17)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@contract-case/eslint-config-case-maintainer",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "eslint settings for contract-case modules. Only useful for ContractCase maintainers",
   "keywords": [
     "contractcase"
