@@ -1,6 +1,6 @@
 {
   "name": "@contract-case/contract-case-jest",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "type": "module",
   "description": "ContractCase contract testing suite",
   "keywords": [
@@ -56,7 +56,7 @@
     "url": "https://github.com/case-contract-testing/case/issues"
   },
   "devDependencies": {
-    "@contract-case/eslint-config-case-maintainer": "0.1.1",
+    "@contract-case/eslint-config-case-maintainer": "0.2.0",
     "@grpc/grpc-js": "^1.12.6",
     "@grpc/proto-loader": "^0.7.13",
     "@types/body-parser": "^1.19.2",
@@ -80,13 +80,13 @@
     "jest": "^29.4.3"
   },
   "dependencies": {
-    "@contract-case/case-connector": "0.10.0",
-    "@contract-case/case-core-plugin-http-dsl": "0.18.0",
-    "@contract-case/case-definition-dsl": "0.18.0",
-    "@contract-case/case-entities-internal": "0.18.0",
-    "@contract-case/case-plugin-base": "0.18.0",
-    "@contract-case/case-plugin-dsl-types": "0.18.0",
-    "@contract-case/cli": "0.2.6",
+    "@contract-case/case-connector": "0.10.1",
+    "@contract-case/case-core-plugin-http-dsl": "0.19.0",
+    "@contract-case/case-definition-dsl": "0.19.0",
+    "@contract-case/case-entities-internal": "0.19.0",
+    "@contract-case/case-plugin-base": "0.19.0",
+    "@contract-case/case-plugin-dsl-types": "0.19.0",
+    "@contract-case/cli": "0.2.7",
     "chalk": "^4.1.2",
     "read-pkg-up": "^7.0.1",
     "ts-node": "^10.9.1"

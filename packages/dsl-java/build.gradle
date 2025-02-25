@@ -9,7 +9,7 @@ plugins {
     id "com.github.spotbugs" version "6.1.5"
 }
 group = 'io.contract-testing.contractcase'
-version = "0.3.0" // x-release-please-version
+version = "0.3.1" // x-release-please-version
 
 sourceCompatibility = '17'
 

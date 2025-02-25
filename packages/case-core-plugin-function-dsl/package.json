@@ -1,6 +1,6 @@
 {
   "name": "@contract-case/case-core-plugin-function-dsl",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "ContractCase core function plugin DSL",
   "keywords": [
     "testing",
@@ -49,7 +49,7 @@
   },
   "devDependencies": {
     "@contract-case/case-maintainer-config": "0.1.0",
-    "@contract-case/eslint-config-case-maintainer": "0.1.1",
+    "@contract-case/eslint-config-case-maintainer": "0.2.0",
     "@types/jest": "^29.5.12",
     "eslint": "^9.21.0",
     "jest": "^29.7.0",
@@ -60,6 +60,6 @@
     "typescript": "5.5.4"
   },
   "dependencies": {
-    "@contract-case/case-plugin-dsl-types": "^0.18.0"
+    "@contract-case/case-plugin-dsl-types": "^0.19.0"
   }
 }

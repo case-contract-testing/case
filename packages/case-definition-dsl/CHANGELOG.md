@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.19.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-definition-dsl-v0.18.0...@contract-case/case-definition-dsl-v0.19.0) (2025-02-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Move the matchers to packages grouped around related functionality - please update your imports following the matcher documentation
+
+### Features
+
+* Expose docs-json for auto-documentation purposes ([2ff4e97](https://github.com/case-contract-testing/contract-case/commit/2ff4e97501bc29af4af085d7a751b752bad8e82c))
+
+
+### Code Refactoring
+
+* Move the matchers to packages grouped around related functionality - please update your imports following the matcher documentation ([1edbda0](https://github.com/case-contract-testing/contract-case/commit/1edbda04c1fc6bcee19bfb13beb30980714bbfb6))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @contract-case/case-entities-internal bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-plugin-dsl-types bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-core-plugin-http-dsl bumped from 0.18.0 to 0.19.0
+    * @contract-case/case-core-plugin-function-dsl bumped from 0.18.0 to 0.19.0
+  * devDependencies
+    * @contract-case/eslint-config-case-maintainer bumped from 0.1.1 to 0.2.0
+    * @contract-case/case-core-plugin-http-dsl bumped from 0.18.0 to 0.19.0
+
 ## [0.18.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-definition-dsl-v0.17.1...@contract-case/case-definition-dsl-v0.18.0) (2024-10-17)
 
 

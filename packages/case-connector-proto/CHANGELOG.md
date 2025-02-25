@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.9.1](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-connector-proto-v0.9.0...@contract-case/case-connector-proto-v0.9.1) (2025-02-25)
+
+
+### Features
+
+* Add ability for the current version to be generated from the git sha ([dd70365](https://github.com/case-contract-testing/contract-case/commit/dd703650fd058d34f6d772011b74faec10b93074))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @contract-case/eslint-config-case-maintainer bumped from 0.1.1 to 0.2.0
+
 ## [0.9.0](https://github.com/case-contract-testing/contract-case/compare/@contract-case/case-connector-proto-v0.8.0...@contract-case/case-connector-proto-v0.9.0) (2024-10-17)
 
 
